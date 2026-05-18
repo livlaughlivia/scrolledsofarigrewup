@@ -195,7 +195,12 @@ section {
   text-align: center;
   position: fixed;
   bottom: 30px;
+  left: 20%;
+  transform: translateX(-20%);
+  bottom: 30px;
   z-index: 102;
+  max-width: 90%;
+  padding: 0 8px;
 }
 
 .quote-block::before {
