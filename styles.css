@@ -273,6 +273,12 @@ section {
   opacity: 0.6;
 }
 
+.weltgeschehen {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
 /* ── POST IMAGE ────────────────────────────────────── */
 .post-image {
   width: 100%;
