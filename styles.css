@@ -32,9 +32,11 @@ p, span, a, h1, h2, h3, h4, h5, h6 {
 
 
 h1 {
-  font-size: 32px;
+  font-size: 64px;
   line-height: 1.2;
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 200px;
 }
 /* ── MENU ──────────────────────────────────────────── */
 .menu {
@@ -122,6 +124,14 @@ section {
   position: relative;
 }
 
+.feed-image {
+  width: 100%;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
 
 
 .feed-image img {
@@ -175,10 +185,14 @@ section {
 
 /* ── Insta update ───────────────────────────────────── */
 .insta-update-universal {
+  z-index: 102;
+  margin: 40px;
+  width: 60%;
   background: radial-gradient(
   circle at center,
   #c2df47 0%,
   #ffffff78 70%
+  
 );
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -222,7 +236,7 @@ section {
   font-size: 30px;
   line-height: 1.05;
   color: #ffdefe;
-  -webkit-text-stroke: 2px #ea3336;
+  -webkit-text-stroke: 1px #ea3336;
   text-shadow:
     0px 0px 0 #ea3336,
     4px 4px 3px #ea3336;
