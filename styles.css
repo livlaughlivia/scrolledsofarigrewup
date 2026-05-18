@@ -47,7 +47,9 @@ p, span, a, h1, h2, h3, h4, h5, h6 {
   height: 100dvh;
   object-fit: cover;
   display: block;
+  position: fixed;
 }
+
 
 /* ── MESH BACKGROUND ───────────────────────────────── */
 .mesh-bg {
@@ -66,14 +68,15 @@ p, span, a, h1, h2, h3, h4, h5, h6 {
 /* ── SIDE NAV ──────────────────────────────────────── */
 .side-nav {
   position: fixed;
-  right: 12px;
+  right: 5px;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 100;
+  z-index: 103;
   display: flex;
   flex-direction: column;
   gap: 4px;
-  align-items: flex-end;
+  align-items: flex-start;
+  color: #ffdefe;
 }
 
 .side-nav a {
@@ -81,10 +84,6 @@ p, span, a, h1, h2, h3, h4, h5, h6 {
   padding: 2px 0;
 }
 
-.side-nav a:hover,
-.side-nav a.active {
-  color: #000000;
-}
 
 /* ── SECTIONS ──────────────────────────────────────── */
 section {
@@ -151,6 +150,7 @@ section {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1.5px solid rgba(0,0,0,0.2);
+  text-align: justify;
   border-radius: 14px;
   padding: 14px 16px;
   margin: 0 0 20px #c2df47;
@@ -189,9 +189,9 @@ section {
   font-size: 30px;
   line-height: 1.05;
   color: #ffdefe;
-  -webkit-text-stroke: 1px #ea3336;
+  -webkit-text-stroke: 2px #ea3336;
   text-shadow:
-    2px 2px 0 #ea3336,
+    0px 0px 0 #ea3336,
     4px 4px 3px #ea3336;
   text-align: center;
   position: fixed;
