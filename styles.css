@@ -63,12 +63,13 @@ p, span, a, h1, h2, h3, h4, h5, h6 {
   max-width: 430px;
   margin: 0 auto;
   min-height: 100vh;
+  background: #5c77f7;
 }
 
 /* ── SIDE NAV ──────────────────────────────────────── */
 .side-nav {
   position: fixed;
-  right: 5px;
+  right: 12px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 103;
@@ -146,7 +147,11 @@ section {
 
 /* ── Insta update ───────────────────────────────────── */
 .insta-update-universal {
-  background-color: #c2df47;
+  background: radial-gradient(
+  circle at center,
+  #c2df47 0%,
+  #ffffff78 70%
+);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1.5px solid rgba(0,0,0,0.2);
