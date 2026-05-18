@@ -274,9 +274,17 @@ section {
 }
 
 .weltgeschehen {
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin: 40px 0;
+  position: relative;
+  z-index: 120;
+  margin: -600px 0 40px;
+}
+
+.weltgeschehen img {
+  width: 100%;
+  height: auto;
 }
 
 /* ── POST IMAGE ────────────────────────────────────── */
