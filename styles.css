@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Arizona Variable";
-  src: url("/013_USED_FOOTAGE/03_FONTS/ABCArizonaSuperfamilyVariable-Trial.woff") format("woff2-variations"),
+  src: url("FOOTAGE/03_FONTS/ABCArizonaSuperfamilyVariable-Trial.woff") format("woff");
+  font-display: swap;
 }
 
 /* ── RESET & BASE ─────────────────────────────────── */
@@ -184,12 +185,17 @@ section {
 /* ── QUOTE BLOCK ───────────────────────────────────── */
 .quote-block-1 {
   font-family: "Arizona Variable";
-  font-variation-settings: "SRFF" 100;
+  font-variation-settings: "SRFF" 100, "wght" 400;
   font-size: 30px;
   color: #ffdefe;
-    -webkit-text-stroke: 1px #ea3336;
+  -webkit-text-stroke: 1px #ea3336;
+  text-shadow:
+    2px 2px 0 #ea3336,
+    4px 4px 3px #ea3336;
+  text-align: center;
   position: fixed;
   bottom: 30px;
+  z-index: 102;
 }
 
 .quote-block::before {
