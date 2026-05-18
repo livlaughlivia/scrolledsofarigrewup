@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Arizona Variable";
-  background: #ffffff;
+  background: #5c77f7;
   color: #000000;
   min-height: 100vh;
   overflow-x: hidden;
@@ -63,7 +63,6 @@ p, span, a, h1, h2, h3, h4, h5, h6 {
   max-width: 430px;
   margin: 0 auto;
   min-height: 100vh;
-  background: #5c77f7;
 }
 
 /* ── SIDE NAV ──────────────────────────────────────── */
@@ -79,12 +78,6 @@ p, span, a, h1, h2, h3, h4, h5, h6 {
   align-items: flex-start;
   color: #ffdefe;
 }
-
-.side-nav a {
-  transition: color 0.2s, opacity 0.2s;
-  padding: 2px 0;
-}
-
 
 /* ── SECTIONS ──────────────────────────────────────── */
 section {
@@ -127,6 +120,15 @@ section {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.floater {
+  position: absolute;
+  top: 14%;
+  left: 0;
+  width: 60%;
+  height: 72%;
+  pointer-events: none;
 }
 
 .floater {
