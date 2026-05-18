@@ -30,6 +30,12 @@ p, span, a, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+
+h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+}
 /* ── MENU ──────────────────────────────────────────── */
 .menu {
   position: fixed;
@@ -116,6 +122,8 @@ section {
   position: relative;
 }
 
+
+
 .feed-image img {
   width: 100%;
   height: auto;
@@ -132,6 +140,24 @@ section {
 }
 
 .floater {
+  position: absolute;
+  top: 14%;
+  left: 0;
+  width: 60%;
+  height: 72%;
+  pointer-events: none;
+}
+
+.floater2 {
+  position: absolute;
+  top: 14%;
+  left: 0;
+  width: 60%;
+  height: 72%;
+  pointer-events: none;
+}
+
+.floater3 {
   position: absolute;
   top: 14%;
   left: 0;
